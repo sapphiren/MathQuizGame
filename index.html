@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>The Math Quiz Game</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="quiz_game.css">
+        <script src="quiz_game_login.js"></script>
+    </head>
+    <body>
+    <center>
+
+        
+        <h4 id="player1_name"></h4> <span id="player1_score"></span>
+        <br>
+        <h4 id="player2_name"></h4> <span id="player2_score"></span>
+        <div id="player1_login">
+            <h4 id="player1_logIn">Player 1 Login</h4>
+            <h6 id="userName">User Name:</h6>
+          <input type="text" placeholder="Player 1 Name" id="player1name">
+        </div>
+        <br>
+        <div id="player2_login">
+            <h4 id="player2_logIn">Player 2 Login</h4>
+            <h6 id="userName">User Name:</h6>
+          <input type="text" placeholder="Player 2 Name" id="player2name">
+        </div>
+        <br>
+        <br>
+        <button id="loginButton" onclick="addUser()">Login Now</button>
+    </center>
+    </body>
+</html>
